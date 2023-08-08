@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "3docSec",
+  "risk": "3",
+  "title": "Delegated funds are permanently frozen in VotingEscrow after delegator's and delegatee's timelocks expire",
+  "issueId": 30,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/30"
+}
