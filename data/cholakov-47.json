@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "cholakov",
+  "risk": "2",
+  "title": "CANTO tokens sent to the LendingLedger.sol contract can be stuck forever.",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/47"
+}
