@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "tsvetanovv",
+  "risk": "3",
+  "title": "Missing implementation in `vote_for_gauge_weights()` to stop the malicious user from rapidly switching their voting power",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/45"
+}
