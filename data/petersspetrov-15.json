@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "petersspetrov",
+  "risk": "2",
+  "title": "_getPriceFeedPric() in Oracle.sol missing checking sequencer status on L2",
+  "issueId": 15,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/15"
+}
