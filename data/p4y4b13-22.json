@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "p4y4b13",
+  "risk": "2",
+  "title": "State of the contract is not being updated while user calling delegate()",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/22"
+}
