@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "deth",
+  "risk": "2",
+  "title": "LendingLedger.sol#claim() - If the governance doesn't set any rewards for a specific epoch, a user might lose funds if he decides to not wait for rewards to be set",
+  "issueId": 44,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/44"
+}
