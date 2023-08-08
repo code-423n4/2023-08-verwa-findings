@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Silverskrrrt",
+  "risk": "3",
+  "title": "Unchecked Loops in GaugeController.sol Can Cause Transaction Failures",
+  "issueId": 21,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/21"
+}
