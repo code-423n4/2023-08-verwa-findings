@@ -27,6 +27,8 @@ uint256 public constant WEEK = 7 days; <================ shall be 1 weeks which 
 uint256 public constant LOCKTIME = 1825 days; <======== fine
 ```
 
+The same in [GaugeController.sol#L16](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L16)
+
 
 ## [NC-03] Maintain style between similar functions
 [_checkpoint_lender](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/LendingLedger.sol#L55) and [_checkpoint_market](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/LendingLedger.sol#L83) are roughly the same, but the tabs made for readiness do not match. Consider adding an empty line like in [LendingLedger.sol#L61](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/LendingLedger.sol#L61). 
