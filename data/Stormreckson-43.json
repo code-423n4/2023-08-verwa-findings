@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "Inability to increase the locked amount if the amount is 0 and the lock end time is less than the current block timestamp.",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/43"
+}
