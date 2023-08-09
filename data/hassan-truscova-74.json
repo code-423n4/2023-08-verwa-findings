@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "hassan-truscova",
+  "risk": "2",
+  "title": "VotingEscrow’s balanceOfAt and totalSupplyAt can return different values for the same block",
+  "issueId": 74,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/74"
+}
