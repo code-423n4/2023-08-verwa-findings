@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "pep7siup",
+  "risk": "3",
+  "title": "Delegator with an expired lock is DOSed from un-delegation, leading to failed withdrawal and loss of fund.",
+  "issueId": 79,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/79"
+}
