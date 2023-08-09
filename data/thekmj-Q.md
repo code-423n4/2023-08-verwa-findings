@@ -19,6 +19,16 @@ There is no such file `IVotingEscrow` present in the repository.
 
 One should not be relying on FIAT DAO's original `IVotingEscrow` as the documented source of truth, as the contract veRWA has undergone changes. Several behaviors are important to document for the user to be aware of. For example, `increaseAmount` also resets their lock to 5 years, or `delegate` actually does not reset the lock (contrary to the statement at [line 18](https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol#L18)).
 
+## [L-03] Events should be emitted for important events
+
+Because changes in voting are equivalent to changes in incentives, it is recommended to emit event for any gauge-related state changes. It will be beneficial to whoever user looking to monitor incentives and its historical data.
+
+We recommend emitting events for `vote_for_gauge_weights()` whenever a user makes a vote, and `_change_gauge_weight` for whenever governance changes a pool weight.
+
+Affected functions: 
+- https://github.com/code-423n4/2023-08-verwa/blob/main/src/GaugeController.sol#L188-L199
+- https://github.com/code-423n4/2023-08-verwa/blob/main/src/GaugeController.sol#L211
+
 ## [N-01] Redundant equivalence check for `msg.value`
 
 It is enough to use `msg.value` itself as the lock value. There is no need to require it as a function parameter.
@@ -34,7 +44,7 @@ In `VotingEscrow`, the voting token metadata are set to storage.
 
 However, it is known that they will be the native CANTO token, with known immutable metadata. 
 
-We suggest setting all of them to a constant, or to immutables. This also has the virtue of gas-saving whenever the data are used in a transaction (e.g. decimals).
+We suggest setting all of them to a constant, or to immutables. This also has the virtue of gas-saving by reducing storage reads whenever the data are used in a transaction (e.g. decimals).
 
 ## [N-03] Redundant limit check for voting power
 
