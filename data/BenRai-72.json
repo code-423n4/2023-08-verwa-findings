@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "BenRai",
+  "risk": "3",
+  "title": "When calling `vote_for_gauge_weights` in `GaugeController` the `changes_weight` are not applied to the next `points_weight`",
+  "issueId": 72,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/72"
+}
