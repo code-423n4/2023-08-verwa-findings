@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "ch0bu",
+  "risk": "2",
+  "title": "`createLock`/`increaseAmount` value overflow leading to loss of funds",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/83"
+}
