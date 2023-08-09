@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "There is a risk that the calculated `total_weight` might change between the time of the check and the actual division operation. If another transaction modifies the `points_sum` mapping between these two steps, it can lead to unexpected results and incorrect calculations.",
+  "issueId": 101,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/101"
+}
