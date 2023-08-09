@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": " If the value of `old_slope.slope` is greater than the values stored in `changes_weight[_gauge_addr][old_slope.end]` or `changes_sum[old_slope.end]` an underflow vulnerability could be exploited.",
+  "issueId": 134,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/134"
+}
