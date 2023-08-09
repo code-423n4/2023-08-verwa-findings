@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "A few map / nested map in LendingLedger.sol missing public modifier",
+  "issueId": 144,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/144"
+}
