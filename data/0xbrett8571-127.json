@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "An attacker can artificially increase the `total_weight`, thereby gaining an unfairly high relative weight in the gauge. ",
+  "issueId": 127,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/127"
+}
