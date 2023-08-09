@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Inaccurate timing for slope changes can lead to confusion and unexpected behavior in the voting system. When users with different lock end times vote for a gauge, their slope changes might overlap or conflict due to the use of `lock_end` as the basis for determining the slope change's end time.",
+  "issueId": 102,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/102"
+}
