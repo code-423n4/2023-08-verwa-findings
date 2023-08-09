@@ -19,3 +19,16 @@ https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol
 
 ## Recommendation
 Implement a algorithm within the contract that accurately calculates and verifies the voting power of each user based on established criteria.
+
+# [NC-01] Unused imports
+
+## Description
+The following source units are imported but not referenced in the contract:
+
+**LendingLedger.sol:**
+```solidity
+import {VotingEscrow} from "./VotingEscrow.sol";
+```
+
+## Recommendation
+Consider removing this imports.
