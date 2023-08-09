@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Incorrect `require` condition in `totalSupplyAt` and `balanceOfAt` may lead to inconsistent values being returned for the same block",
+  "issueId": 121,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/121"
+}
