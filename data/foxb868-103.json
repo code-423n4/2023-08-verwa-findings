@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "foxb868",
+  "risk": "3",
+  "title": "Integer overflow could occur in the `_change_gauge_weight` function due to a very large `_weight` value.",
+  "issueId": 103,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/103"
+}
