@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Kow",
+  "risk": "2",
+  "title": "Delegatee can intentionally and unintentionally grief vote owner's ability to delegate voting power and withdraw locked funds",
+  "issueId": 82,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/82"
+}
