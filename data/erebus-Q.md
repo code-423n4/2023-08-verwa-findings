@@ -19,15 +19,15 @@ CHECK => [LendingLedger.sol#L86](https://github.com/code-423n4/2023-08-verwa/blo
 
 Both lines are calculating `updateUntilEpoch` before the `if-else` clause which is just used on the `else` one. Consider moving that calculation to the `else` clause to be consistent with the expected "workflow" (that is, don't do unnecessary things) 
 
-## [NC-02] Use `weeks` instead of `days` when defining "full-weeks" constants
-In [VotingEscrow](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/VotingEscrow.sol#L31) it defines the constant `WEEK` as `7 days`, instead of the builtin solidity definition. Rely on them for basic dates instead of hardcoding them as days (readiness). For example, this does not apply to `LOCKTIME`
+## [NC-02] Use `weeks` instead of `days` when defining "full-weeks" constants (the same for "full-years")
+In [VotingEscrow](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/VotingEscrow.sol#L31) it defines the constant `WEEK` as `7 days`, instead of the builtin solidity definition. Rely on them instead of hardcoding them as days (increases readiness from a developer point of view). The same applies to `LOCKTIME`, which is equal to 5 years and the current definition is not very straightforward.
 
 ```
 uint256 public constant WEEK = 7 days; <================ shall be 1 weeks which is more explicit
-uint256 public constant LOCKTIME = 1825 days; <======== fine
+uint256 public constant LOCKTIME = 1825 days; <======== shall be 5 years
 ```
 
-The same in [GaugeController.sol#L16](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L16)
+The same applies to [GaugeController.sol#L16](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L16)
 
 ## [NC-03] Misplaced comment
 Retrieving the last user points from the Voting Scrow in the [GaugeController.sol#L215-L220](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L215-L220) is done by ommiting the `bias` and `ts` returned values. For readiness, they are written as comments, but the `/*int128 bias*/` one is placed within `slope_` instead of before the comma. Consider putting the `/*int128 bias*/` before the comma:
