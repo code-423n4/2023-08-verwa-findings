@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "MrPotatoMagic",
+  "risk": "3",
+  "title": "Users will not be able to withdraw CANTO if their lock expires under existing delegation",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/118"
+}
