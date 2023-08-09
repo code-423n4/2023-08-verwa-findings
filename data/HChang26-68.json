@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "`claim()` function reverts and drains gas on zero `marketBalance`",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/68"
+}
