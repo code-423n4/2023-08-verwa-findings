@@ -28,3 +28,26 @@ uint256 public constant LOCKTIME = 1825 days; <======== fine
 ```
 
 The same in [GaugeController.sol#L16](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L16)
+
+## [NC-03] Misplaced comment
+Retrieving the last user points from the Voting Scrow in the [GaugeController.sol#L215-L220](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L215-L220) is done by ommiting the `bias` and `ts` returned values. For readiness, they are written as comments, but the `/*int128 bias*/` one is placed within `slope_` instead of before the comma. Consider putting the `/*int128 bias*/` before the comma:
+
+```
+       (
+            /*int128 bias*/,
+            int128 slope_, 
+            /*uint256 ts*/
+
+        ) = ve.getLastUserPoint(msg.sender);
+```
+
+instead of the current implementation
+
+```
+        (
+            ,
+            /*int128 bias*/
+            int128 slope_, /*uint256 ts*/
+
+        ) = ve.getLastUserPoint(msg.sender);
+```
