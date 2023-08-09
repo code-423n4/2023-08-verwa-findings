@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Voters have advantage when voting late",
+  "issueId": 120,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/120"
+}
