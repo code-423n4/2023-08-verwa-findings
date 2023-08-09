@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "If an overflow occurs in the `_change_gauge_weight()` function, the calculated value of `new_sum` could wrap around to 0, leading to incorrect gauge weight updates.",
+  "issueId": 136,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/136"
+}
