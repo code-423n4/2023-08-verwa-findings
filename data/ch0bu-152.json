@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "ch0bu",
+  "risk": "2",
+  "title": "Possible `out of gas` error in `for` loops",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/152"
+}
