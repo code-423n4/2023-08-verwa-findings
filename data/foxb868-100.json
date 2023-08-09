@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "foxb868",
+  "risk": "3",
+  "title": "If the internal transfer logic of the CANTO token contract is complex or requires more gas to execute, the transfer might fail, causing the claim to be unsuccessful.",
+  "issueId": 100,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/100"
+}
