@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Tendency",
+  "risk": "2",
+  "title": "Users might not be able to undelegate after delegating to another user",
+  "issueId": 209,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/209"
+}
