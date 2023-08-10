@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xmuxyz",
+  "risk": "3",
+  "title": "Lack of an input validation to check whether or not the market would be a whitelisted-market, which allow a malicious user to fraudulently claim the rewards",
+  "issueId": 202,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/202"
+}
