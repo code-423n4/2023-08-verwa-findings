@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Bube",
+  "risk": "2",
+  "title": "Add ReentrancyGuard to smart contract `LendingLedger.sol`",
+  "issueId": 282,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/282"
+}
