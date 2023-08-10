@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Yuki",
+  "risk": "3",
+  "title": "Loss of funds, as the lock owner won't be able to undelegate back to himself in order to withdraw if his lock has expired.",
+  "issueId": 352,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/352"
+}
