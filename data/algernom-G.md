@@ -35,3 +35,40 @@ for (uint256 i = 0; i < 255; i++) {
 https://github.com/code-423n4/2023-08-verwa/blob/498a3004d577c8c5d0c71bff99ea3a7907b5ec23/src/VotingEscrow.sol#L188
 
 and should be extended throughout the codebase.
+
+# Use named return variable when function returns
+
+### Summary
+Use named return variable when function returns
+### Details
+When a function returns a value, you can set the type for the return and name the returned variable in the function declaration.
+
+Using named return function variables saves gas on the variable that is returned during the functions execution.
+
+The codebase sporadically does and doesn't make use of named return variables.
+### Code snippets
+- https://github.com/code-423n4/2023-08-verwa/blob/498a3004d577c8c5d0c71bff99ea3a7907b5ec23/src/VotingEscrow.sol#L431
+- https://github.com/code-423n4/2023-08-verwa/blob/498a3004d577c8c5d0c71bff99ea3a7907b5ec23/src/VotingEscrow.sol#L451
+
+### Recommended mitigation
+Where a function returns value, if this value can be named and is calculated in the scope of the function, set the type of the return also it's name in the function declaration and not in the function code block. Example:
+
+```js
+- // function _findBlockEpoch(uint256 _block, uint256 _maxEpoch) internal view returns (uint256) {
++ function _findBlockEpoch(uint256 _block, uint256 _maxEpoch) internal view returns (uint256 min) {
+    // Binary search
+-   //  uint256 min = 0; // uint256 default is 0, no need to init
+    uint256 max = _maxEpoch;
+    // Will be always enough for 128-bit numbers
+    for (uint256 i = 0; i < 128; i++) {
+        if (min >= max) break;
+        uint256 mid = (min + max + 1) / 2;
+        if (pointHistory[mid].blk <= _block) {
+            min = mid;
+        } else {
+            max = mid - 1;
+	    }
+    }
+    return min;
+}
+```
