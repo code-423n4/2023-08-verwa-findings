@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "_supplyAt() function have an unbounded for loop that could potentially run out of gas.",
+  "issueId": 311,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/311"
+}
