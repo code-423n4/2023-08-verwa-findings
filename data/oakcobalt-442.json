@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "oakcobalt",
+  "risk": "3",
+  "title": "Contrary to sponsor's intent, the gauge's weight will not be updated properly if governance do not change weight before any voting",
+  "issueId": 442,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/442"
+}
