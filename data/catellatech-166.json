@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "catellatech",
+  "risk": "2",
+  "title": "Unsafe casting from int128 in VotingEscrow.createLock() can cause wrong accounting of locked amounts",
+  "issueId": 166,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/166"
+}
