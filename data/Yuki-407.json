@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Yuki",
+  "risk": "3",
+  "title": "Undelegation logic doesn't work as expected, duo to that an owner of a lock would be enforced to extend their lock time for another 5 years.",
+  "issueId": 407,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/407"
+}
