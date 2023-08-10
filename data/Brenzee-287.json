@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Brenzee",
+  "risk": "2",
+  "title": "Users` votes do not impact/change the Gauge's relative weight and it will always be 0",
+  "issueId": 287,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/287"
+}
