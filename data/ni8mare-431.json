@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "ni8mare",
+  "risk": "2",
+  "title": "change_gauge_weight can update an invalid Gauge",
+  "issueId": 431,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/431"
+}
