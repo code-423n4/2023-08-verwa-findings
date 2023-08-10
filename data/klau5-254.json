@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "klau5",
+  "risk": "3",
+  "title": "Lender can receive a reward based on past checkpoint balance because the checkpoint data remains when lending market removed and reregisted at whitelist",
+  "issueId": 254,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/254"
+}
