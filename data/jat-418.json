@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "jat",
+  "risk": "2",
+  "title": "User is able to delegate to delegatee with shorter lock when calling increaseAmount()",
+  "issueId": 418,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/418"
+}
