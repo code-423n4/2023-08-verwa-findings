@@ -17,9 +17,6 @@
 - [TODOs included in code/comments](#todos-included-in-code-comments)
 - [Reference to non-existent documentation](#reference-to-non-existent-documentation)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 # Casting between types makes values negative for huge input values
 
 Invariants to the VotingEscrow contract can be broken.  While an enormous quantity is necessary, greater than the total supply of $CANTO, it’s worth mentioning due to the fact that invariants in the system can be broken, if only in testing environments.
