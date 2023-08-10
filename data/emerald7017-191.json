@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "emerald7017",
+  "risk": "3",
+  "title": "If an attacker can manipulate the input `_t` timestamp to be at the beginning of a week, they could disrupt the accurate calculation of week boundaries.",
+  "issueId": 191,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/191"
+}
