@@ -6,7 +6,7 @@ The governance setted on [LendingLedger.sol#L48](https://github.com/code-423n4/2
 
 A good idea might be just to simple use a [`Ownable2Step`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable2Step.sol) pattern, and replace `onlyGovernance` with `onlyOwner`, and clarify that the owner is the governance.
 
-## L02 Several loops could not execute due to gas limitation
+## L-02 Several loops could not execute due to gas limitation
 
 The codebase relies on several loops that can iterate hundreds of times with costly gas
 consumption. This design is error-prone and may cause the contract to be trapped because
@@ -30,6 +30,18 @@ loops that can be iterated hundreds of times while changing state:
 These loops have code that writes state variables, which is the operation that consumes the most gas.
 Both loops are executed with every interaction of the contract. 
 Recommendation update GaugeController logic and VotingEscrow to work with a large number of periods.
+
+## L-03 No incentive to vote early in [`GaugeController`](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L211)
+GaugeController voting offers no incentive to vote early, so late-voting users have a
+benefit over early voters.
+Sinces all the votes are public, users who vote earlier are penalized because their votes are
+known by the other participants. An attacker can learn exactly how many tokens are
+necessary to change the outcome of the voting just before it ends.
+Consider:
+- Using a decreasing weight to create an early voting advantage
+- Using a blind vote Long term, properly document and test the voting process and closely follow the
+community’s progress regarding on-chain voting.
+
 
 # NonCritical
 
