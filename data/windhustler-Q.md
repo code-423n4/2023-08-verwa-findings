@@ -4,7 +4,7 @@
 
 - [_checkpoint](https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol#L115) function
 consider splitting the whole function into checkpoint individual and checkpoint global functions. 
-This makes the code more readable and since global state is not used anywhere expect for the view functions it makes sense to split it.
+This makes the code more readable and since the global state is not used anywhere except for the view functions it makes sense to split it.
 - [userOldPoint.slope](https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol#L130) and [userNewPoint.slope](https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol#L134) calculations result in loss of precision. 
 Consider multiplying the delegated amount with a multiplier(scaling before division) and using it as such through the codebase. And then dividing it back when needed to preserve accuracy. [See Uniswap's approach](https://github.com/Uniswap/v2-core/blob/master/contracts/libraries/UQ112x112.sol).
 - [Remove redundant code](https://github.com/code-423n4/2023-08-verwa/blob/main/src/VotingEscrow.sol#L142-L144)
@@ -58,4 +58,4 @@ if (t > block.timestamp) {
     break;
 }
 ```
-- Early revert if user's power used exceeds 100%. [Consider placing this validation after fetching the old_slope for the `msg.sender`](https://github.com/code-423n4/2023-08-verwa/blob/main/src/GaugeController.sol#L239-L242).
+- Early revert if the user's power used exceeds 100%. [Consider placing this validation after fetching the old_slope for the `msg.sender`](https://github.com/code-423n4/2023-08-verwa/blob/main/src/GaugeController.sol#L239-L242).
