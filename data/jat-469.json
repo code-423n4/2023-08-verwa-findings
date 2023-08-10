@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "jat",
+  "risk": "2",
+  "title": "Claim reward can be inaccessible if msg.sender is a smart contract with no fallback/receive",
+  "issueId": 469,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/469"
+}
