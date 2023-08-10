@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Audinarey",
+  "risk": "3",
+  "title": "```userNewPoint```  will override the value of ```userOldPoint ``` in the Point array if ```uEpoch == 0``` was initially zero leading to inacuracy in recording checkpoints",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/273"
+}
