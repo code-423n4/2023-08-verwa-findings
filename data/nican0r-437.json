@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "nican0r",
+  "risk": "3",
+  "title": "lendingMarketTotalBalance isn't updated for first call to _checkpoint_market in markets created in first epoch",
+  "issueId": 437,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/437"
+}
