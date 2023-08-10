@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "QiuhaoLi",
+  "risk": "3",
+  "title": "claim, checkpoint_market, checkpoint_lender should also check if _market is whitelisted",
+  "issueId": 328,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/328"
+}
