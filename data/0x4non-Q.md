@@ -1,6 +1,6 @@
 # Lows
 
-## L-01 Governance can be change
+## L-01 Governance cant be change
 
 The governance setted on [LendingLedger.sol#L48](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/LendingLedger.sol#L48) and [GaugeController.sol#L59](https://github.com/code-423n4/2023-08-verwa/blob/a693b4db05b9e202816346a6f9cada94f28a2698/src/GaugeController.sol#L59) can be changed or transfered.
 
@@ -42,6 +42,8 @@ Consider:
 - Using a blind vote Long term, properly document and test the voting process and closely follow the
 community’s progress regarding on-chain voting.
 
+# L-04 GaugeController allows for quick vote voting strategy
+This means that an attacker can wait to the last moment to submit their votes manipulating the outcome. Consider add a voting weight decreasing over time.
 
 # NonCritical
 
