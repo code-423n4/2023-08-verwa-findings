@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "p_crypt0",
+  "risk": "3",
+  "title": "LendingMarket contract has full control over user positions via sync_ledger()'s _delta parameter.",
+  "issueId": 270,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/270"
+}
