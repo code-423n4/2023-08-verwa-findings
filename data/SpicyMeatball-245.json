@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "SpicyMeatball",
+  "risk": "2",
+  "title": "Delegatee can prevent his delegators to undelegate and withdraw votes",
+  "issueId": 245,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/245"
+}
