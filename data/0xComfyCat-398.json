@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xComfyCat",
+  "risk": "2",
+  "title": "`add_gauge` doesn't initialize `time_weight` and update `time_sum`",
+  "issueId": 398,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/398"
+}
