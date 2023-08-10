@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "oakcobalt",
+  "risk": "3",
+  "title": "Malicious user can drastically boost their voting power by increase a dust amount in lock",
+  "issueId": 374,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/374"
+}
