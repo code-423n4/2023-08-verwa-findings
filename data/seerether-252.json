@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "user can withdraw more tokens than they originally locked by providing a higher msg.value when calling the withdraw() function.",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/252"
+}
