@@ -15,7 +15,11 @@ Instances:
 There is ``TODO`` in the constructor for changing the ``governance`` address to Oracle but it has not been implemented in both instances. It is better to implement these changes.
 
 ## [L-02] Provide proper documentation.
-In the ``src/VotingEscrow.sol`` there are several instances of ```// See IVotingEscrow for documentation``` before many function but there is no ``IVotingEscrow`` provided for this audit. Hence, most of this functions are audited without proper documentation resulting in auditors getting less context of the functions. Provide proper documentation for a better audit.
+In the ``src/VotingEscrow.sol`` there are several instances of 
+```
+// See IVotingEscrow for documentation
+``` 
+before many functions but there is no ``IVotingEscrow`` provided for this audit. Hence, most of this functions are audited without proper documentation resulting in auditors getting less context of the functions. Provide proper documentation for a better audit.
 
 Instances:
 1. https://github.com/code-423n4/2023-08-verwa/blob/498a3004d577c8c5d0c71bff99ea3a7907b5ec23/src/VotingEscrow.sol#L267
