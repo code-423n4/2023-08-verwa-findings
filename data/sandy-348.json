@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "sandy",
+  "risk": "3",
+  "title": "The provided ``addr`` is never updated as ``delegatee`` in the locked mapping.",
+  "issueId": 348,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/348"
+}
