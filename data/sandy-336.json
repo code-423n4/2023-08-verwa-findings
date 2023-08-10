@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "sandy",
+  "risk": "3",
+  "title": "Time is not increased for ``delegatee`` in ``increaseAmount()`` of ``src/VotingEscrow.sol``.",
+  "issueId": 336,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/336"
+}
