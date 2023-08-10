@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "popular00",
+  "risk": "2",
+  "title": "Removing a lending market from the whitelist will likely result in locked user funds",
+  "issueId": 455,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/455"
+}
