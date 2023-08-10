@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Anyone could call _delegate(), pass in any toLocked lock, and increase its delegated voting power.",
+  "issueId": 298,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/298"
+}
