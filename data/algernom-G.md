@@ -15,7 +15,7 @@ This is fine in most places but in code blocks where a range of values that a lo
 ### Recommended mitigation
 On functions that loop over large ranges, use regular addition with variable names (e.g. `x = x+y`) over addition assignment (`x += y`).
 
-This is already implemented in some areas of the code e.g. 
+This is already implemented in some areas of the code and should be extended throughout the codebase e.g. 
 
 ```js
 /// Excerpt from _checkpoint function in VotingEscrow.sol
@@ -33,8 +33,6 @@ for (uint256 i = 0; i < 255; i++) {
 ...
 ```
 https://github.com/code-423n4/2023-08-verwa/blob/498a3004d577c8c5d0c71bff99ea3a7907b5ec23/src/VotingEscrow.sol#L188
-
-and should be extended throughout the codebase.
 
 # Use named return variable when function returns
 
