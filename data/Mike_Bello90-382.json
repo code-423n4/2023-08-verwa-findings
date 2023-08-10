@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Mike_Bello90",
+  "risk": "2",
+  "title": "Vulnerability: DOS.- Gas Limit can be Reachead / Contracts: GaugeController & VotingEscrow / Functions:(  _get_sum  &  _get_weight ) & ( _checkpoint )",
+  "issueId": 382,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/382"
+}
