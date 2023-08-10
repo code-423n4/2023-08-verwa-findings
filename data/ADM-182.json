@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "ADM",
+  "risk": "2",
+  "title": "Users may be forced into long lock times to be able to undelegate back to themselves.",
+  "issueId": 182,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/182"
+}
