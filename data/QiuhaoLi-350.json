@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "QiuhaoLi",
+  "risk": "2",
+  "title": "precision loss in _checkpoint leads to less bias even zero",
+  "issueId": 350,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/350"
+}
