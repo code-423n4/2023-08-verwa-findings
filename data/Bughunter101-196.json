@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`VotingEscrow._checkpoint()` function has an underflow problem caused by division first and then multiplication",
+  "issueId": 196,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/196"
+}
