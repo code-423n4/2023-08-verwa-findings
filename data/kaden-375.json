@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "kaden",
+  "risk": "3",
+  "title": "Cannot undelegate without increasing lock time by 5 years, delegatee griefing possible",
+  "issueId": 375,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/375"
+}
