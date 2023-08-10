@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "windhustler",
+  "risk": "2",
+  "title": "Smaller amounts of locked Canto fail to produce voting power due to loss of precision",
+  "issueId": 295,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/295"
+}
