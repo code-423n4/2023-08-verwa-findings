@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "QiuhaoLi",
+  "risk": "2",
+  "title": "createLock, increaseAmount int128(int256(_value)) unsafe downcast can lead to asset loss",
+  "issueId": 341,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/341"
+}
