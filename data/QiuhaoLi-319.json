@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "QiuhaoLi",
+  "risk": "3",
+  "title": "vote_for_gauge_weights() is vulnerable to delegating sybil attack",
+  "issueId": 319,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/319"
+}
