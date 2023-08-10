@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "kaden",
+  "risk": "3",
+  "title": "If a delegated lock expires, the user cannot undelegate and therefore cannot withdraw",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/373"
+}
