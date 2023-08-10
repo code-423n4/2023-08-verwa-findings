@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "catellatech",
+  "risk": "2",
+  "title": "The current implementation of the VotingEscrow contract doesn't support fee on transfer tokens",
+  "issueId": 164,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/164"
+}
