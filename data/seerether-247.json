@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "the unbounded for loops in _findBlockEpoch and _findUserBlockEpoch can lead to a gas-focused denial of service attack",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/247"
+}
