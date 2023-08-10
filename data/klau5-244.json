@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "klau5",
+  "risk": "3",
+  "title": "Still can claim based on the checkpoint although lending market is removed from whitelist and lender withdraws all tokens from the lending market",
+  "issueId": 244,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/244"
+}
