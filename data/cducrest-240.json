@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "cducrest",
+  "risk": "2",
+  "title": "VotingEscrow.increaseAmount() updates lock end time contrary to documentation",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/240"
+}
