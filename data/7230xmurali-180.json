@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "7230xmurali",
+  "risk": "2",
+  "title": "silently Overflow in VotingEscrow.sol  contract in the increaseAmount Function when the locked_.amount >0 means Any Value more present in it by Adding Some more value to it it leads to Overflow .",
+  "issueId": 180,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/180"
+}
