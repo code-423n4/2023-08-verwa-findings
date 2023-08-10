@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "SpicyMeatball",
+  "risk": "3",
+  "title": "User can inflate vote s for the gauge weight with multiple re-delegations",
+  "issueId": 368,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/368"
+}
