@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The unsigned integer math used in time calculations like _findBlockEpoch could potentially wrap-around and cause incorrect results. ",
+  "issueId": 239,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/239"
+}
