@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "sl1",
+  "risk": "2",
+  "title": "Some loops may be not executable due to \"out of gas\" error.",
+  "issueId": 371,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/371"
+}
