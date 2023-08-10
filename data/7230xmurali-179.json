@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "7230xmurali",
+  "risk": "2",
+  "title": "Silently Overflow in the VotingEscrow.sol  contract in createLock Function in the user input is uint256 _value but in the Adding to locking it will lock only int128 value",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/179"
+}
