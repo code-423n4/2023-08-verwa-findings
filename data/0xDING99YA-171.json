@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "0xDING99YA",
+  "risk": "3",
+  "title": "User can't withdraw their locked token after the expiration time if they delegate to another user",
+  "issueId": 171,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/171"
+}
