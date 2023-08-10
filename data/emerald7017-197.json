@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "emerald7017",
+  "risk": "3",
+  "title": " If the `_supplyAt` function returns a value that cannot be represented by a `uint256`, the subsequent attempt to assign this value to a `uint256` variable would lead to an overflow.",
+  "issueId": 197,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/197"
+}
