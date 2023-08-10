@@ -1,0 +1,8 @@
+{
+  "contest": 274,
+  "handle": "nonseodion",
+  "risk": "2",
+  "title": "Voter weight is broken if `_checkpoint` isn't run in VotingEscrow for 5 years (Fix)",
+  "issueId": 417,
+  "issueUrl": "https://github.com/code-423n4/2023-08-verwa-findings/issues/417"
+}
