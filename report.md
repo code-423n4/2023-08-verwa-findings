@@ -1,5 +1,5 @@
 ---
-sponsor: "Canto"
+sponsor: "veRWA"
 slug: "2023-08-verwa"
 date: "2023-10-11"
 title: "veRWA"
