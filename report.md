@@ -1846,7 +1846,7 @@ While the provided code seems to be functional, there are always areas for impro
 
 
 ## 4- Architectural 
-![Architectural](https://raw.githubusercontent.com/catellaTech/unknow/main/arquitectura.drawio.png)
+![https://raw.githubusercontent.com/catellaTech/unknow/main/arquitectura.drawio.png](https://raw.githubusercontent.com/catellaTech/unknow/main/arquitectura.drawio.png)
 
 - **Users**:
 Users interact with the `veRWA project` through their actions, such as depositing tokens, voting on governance proposals, and participating in lending markets.
