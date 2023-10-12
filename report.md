@@ -1770,7 +1770,7 @@ This mechanism aims to incentivize participation and liquidity provision in cred
 
 ## Summary
 
-![veRWA](https://raw.githubusercontent.com/catellaTech/unknow/main/Diagrama%20sin%20t%C3%ADtulo.drawio.png)
+![https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png](https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png)
 
 ## 1- Approach we followed when reviewing the code
 To begin, we assessed the code's scope, which guided our approach to reviewing and analyzing the project.
