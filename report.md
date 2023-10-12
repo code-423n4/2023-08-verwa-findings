@@ -1769,7 +1769,8 @@ To illustrate, let's consider credit markets X, Y, and Z where Alice, Bob, and C
 This mechanism aims to incentivize participation and liquidity provision in credit markets backed by real world assets on the Canto platform.
 
 ## Summary
-![veRWA](https://github.com/catellaTech/unknow/blob/main/Diagrama%20sin%20t%C3%ADtulo.drawio.png?raw=true)
+
+![veRWA](https://raw.githubusercontent.com/catellaTech/unknow/main/Diagrama%20sin%20t%C3%ADtulo.drawio.png)
 
 ## 1- Approach we followed when reviewing the code
 To begin, we assessed the code's scope, which guided our approach to reviewing and analyzing the project.
@@ -1789,7 +1790,7 @@ To begin, we assessed the code's scope, which guided our approach to reviewing a
 
 With this understanding, we proceeded to scrutinize and audit the code through a series of structured steps:
 
-![veRWA](https://github.com/catellaTech/unknow/blob/main/VERWA1.drawio.png?raw=true)
+![veRWA](https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png)
 
 ## 2- Analysis of the code base
 The **`GaugeController` contract** is a fundamental component of the ``veRWA project`` is responsible for enabling users to vote on the distribution of CANTO tokens and managing information related to weights and changes in "gauges" (credit markets) within the `veRWA project`.
@@ -1802,13 +1803,13 @@ The **`VotingEscrow` contract** is responsible for managing users locking and vo
 
 - I'll explain the key components and functionality of the contract in simpler terms:
 
-![`VotingEscrow`](https://github.com/catellaTech/unknow/blob/main/VotingEscrow.drawio.png?raw=true)
+![`VotingEscrow`](https://raw.githubusercontent.com/catellaTech/unknow/main/Gauge.drawio.png)
 
 The **`LendingLedger` contract** is responsible for tracking balances and rewards in lending markets. Users can synchronize their balances, claim rewards, and the governance can set rewards and control the whitelist of lending markets.
 
 - Let's delve into its functionality and structure:
 
-![`LendingLedger`](https://github.com/catellaTech/unknow/blob/main/lending.drawio.png?raw=true)
+![`LendingLedger`](https://raw.githubusercontent.com/catellaTech/unknow/main/lending.drawio.png)
 
 ## 3- Test analysis
 The audit scope of the contracts to be audited is 95% and it should be aimed to be 100%.
@@ -1845,7 +1846,7 @@ While the provided code seems to be functional, there are always areas for impro
 
 
 ## 4- Architectural 
-![Architectural](https://github.com/catellaTech/unknow/blob/main/arquitectura.drawio.png?raw=true)
+![Architectural](https://raw.githubusercontent.com/catellaTech/unknow/main/arquitectura.drawio.png)
 
 - **Users**:
 Users interact with the `veRWA project` through their actions, such as depositing tokens, voting on governance proposals, and participating in lending markets.
