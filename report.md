@@ -1758,7 +1758,7 @@ For this audit, 8 analysis reports were submitted by wardens. An analysis report
 ## Description of `veRWA project` 
 veRWA is an incentivization mechanism designed for Real World Assets (RWA) on the Canto platform. It operates similarly to the veCRV system with its liquidity gauge. Users have the option to lock up CANTO tokens for a duration of five years in the `VotingEscrow` contract, in exchange for receiving veCANTO tokens. 
 
-Subsequently, they can participate in voting activities within the ``GaugeController`` for various credit markets that have been whitelisted by the governance. Users who provide liquidity in these credit markets can claim `CANTO` tokens (provided by the CANTO governance) from the `LendingLedger` contract, based on their proportional contribution.
+Subsequently, they can participate in voting activities within the `GaugeController` for various credit markets that have been whitelisted by the governance. Users who provide liquidity in these credit markets can claim `CANTO` tokens (provided by the CANTO governance) from the `LendingLedger` contract, based on their proportional contribution.
 
 To illustrate, let's consider credit markets X, Y, and Z where Alice, Bob, and Charlie contribute liquidity. In the scenario of credit market X, assuming Alice contributes 60% of the liquidity, Bob contributes 30%, and Charlie contributes 10% at a specific time (epoch), and let's assume that credit market X receives 40% of all votes at that epoch. Consequently, the allocations would be:
 
@@ -1770,7 +1770,7 @@ This mechanism aims to incentivize participation and liquidity provision in cred
 
 ## Summary
 
-![https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png](https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png)
+![veRWA](https://user-images.githubusercontent.com/98446738/274801777-1ba1f99b-f964-4e2b-9d02-e581fa344770.png)
 
 ## 1- Approach we followed when reviewing the code
 To begin, we assessed the code's scope, which guided our approach to reviewing and analyzing the project.
@@ -1790,26 +1790,26 @@ To begin, we assessed the code's scope, which guided our approach to reviewing a
 
 With this understanding, we proceeded to scrutinize and audit the code through a series of structured steps:
 
-![veRWA](https://raw.githubusercontent.com/catellaTech/unknow/main/VERWA1.drawio.png)
+![veRWA](https://user-images.githubusercontent.com/98446738/274802100-30911ef2-a45b-4064-8689-48d7e5310ece.png)
 
 ## 2- Analysis of the code base
 The **`GaugeController` contract** is a fundamental component of the ``veRWA project`` is responsible for enabling users to vote on the distribution of CANTO tokens and managing information related to weights and changes in "gauges" (credit markets) within the `veRWA project`.
 
 - Here's a breakdown of the key parts of this contract:
 
-![`GaugeController`](https://github.com/catellaTech/unknow/blob/main/Gauge.drawio.png?raw=true)
+![`GaugeController`](https://user-images.githubusercontent.com/98446738/274802223-e7068ba0-e959-4e94-b217-c3801a89e456.png)
 
 The **`VotingEscrow` contract** is responsible for managing users locking and voting power. 
 
 - I'll explain the key components and functionality of the contract in simpler terms:
 
-![`VotingEscrow`](https://raw.githubusercontent.com/catellaTech/unknow/main/Gauge.drawio.png)
+![`VotingEscrow`](https://user-images.githubusercontent.com/98446738/274802378-ff4f59d6-f089-4a1c-b555-247c1b0f2825.png)
 
 The **`LendingLedger` contract** is responsible for tracking balances and rewards in lending markets. Users can synchronize their balances, claim rewards, and the governance can set rewards and control the whitelist of lending markets.
 
 - Let's delve into its functionality and structure:
 
-![`LendingLedger`](https://raw.githubusercontent.com/catellaTech/unknow/main/lending.drawio.png)
+![`LendingLedger`](https://user-images.githubusercontent.com/98446738/274802440-67709249-bc61-4c66-84df-249c288b88ce.png)
 
 ## 3- Test analysis
 The audit scope of the contracts to be audited is 95% and it should be aimed to be 100%.
@@ -1846,7 +1846,7 @@ While the provided code seems to be functional, there are always areas for impro
 
 
 ## 4- Architectural 
-![Test](https://gist.github.com/PaperParachute/84792e9e9d99c953907222b35da4d7a0)
+![Architectural](https://user-images.githubusercontent.com/98446738/274802517-86178eef-94fc-46d2-95ab-3157597eb444.png)
 
 - **Users**:
 Users interact with the `veRWA project` through their actions, such as depositing tokens, voting on governance proposals, and participating in lending markets.
